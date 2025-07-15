@@ -6,6 +6,7 @@
     <modules>
         <module>member</module>
         <module>common</module>
+        <module>gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -45,6 +46,12 @@
                 <groupId>com.titos</groupId>
                 <artifactId>common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <!--集成mybatis-->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>3.0.0</version>
             </dependency>
             <!-- 集成mysql连接 -->
             <dependency>
