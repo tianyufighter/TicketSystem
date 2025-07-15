@@ -1,4 +1,4 @@
-package com.titos.train.member.aspect;
+package com.titos.train.common.aspect;
 
 import cn.hutool.core.util.RandomUtil;
 import com.alibaba.fastjson.JSONObject;
