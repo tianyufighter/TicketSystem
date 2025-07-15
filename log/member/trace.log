@@ -1,0 +1,98 @@
+2025-07-15 11:57:10.744 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 24484 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 11:57:10.749 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 11:57:12.163 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-15 11:57:12.173 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-15 11:57:12.174 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-15 11:57:12.176 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-15 11:57:12.297 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-15 11:57:12.297 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1468 ms
+2025-07-15 11:57:12.674 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-15 11:57:12.687 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-15 11:57:12.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-07-15 11:57:12.691 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-07-15 11:57:12.704 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-07-15 11:57:12.705 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-07-15 11:57:12.710 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-15 11:57:12.720 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8001 or configure this application to listen on another port.
+
+2025-07-15 11:57:35.945 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 10132 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 11:57:35.948 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 11:57:36.714 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2025-07-15 11:57:36.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2025-07-15 11:57:36.722 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-15 11:57:36.723 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-15 11:57:36.785 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-15 11:57:36.785 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 782 ms
+2025-07-15 11:57:37.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2025-07-15 11:57:37.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path '/member'
+2025-07-15 11:57:37.132 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.601 seconds (process running for 2.188)
+2025-07-15 11:57:37.134 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
+2025-07-15 11:57:37.135 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000/member/hello
+2025-07-15 12:03:23.242 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 32500 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 12:03:23.245 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 12:03:23.968 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-15 12:03:23.976 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-15 12:03:23.979 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-15 12:03:23.980 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-15 12:03:24.047 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-15 12:03:24.050 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 755 ms
+2025-07-15 12:03:24.365 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-15 12:03:24.394 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-15 12:03:24.400 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.546 seconds (process running for 2.201)
+2025-07-15 12:03:24.401 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
+2025-07-15 12:03:24.401 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-15 12:50:28.151 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 46016 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 12:50:28.156 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 12:50:28.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-15 12:50:28.741 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-15 12:50:28.742 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-15 12:50:28.742 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-15 12:50:28.793 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-15 12:50:28.793 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 593 ms
+2025-07-15 12:50:29.038 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-15 12:50:29.056 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-15 12:50:29.060 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.383 seconds (process running for 1.898)
+2025-07-15 12:50:29.061 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
+2025-07-15 12:50:29.063 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-15 12:50:38.486 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-15 12:50:38.486 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-07-15 12:50:38.487 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2025-07-15 13:36:24.128 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 43344 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 13:36:24.131 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 13:36:24.598 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
+2025-07-15 13:36:24.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-15 13:36:24.973 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-15 13:36:24.975 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-15 13:36:24.976 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-15 13:36:25.047 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-15 13:36:25.048 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 889 ms
+2025-07-15 13:36:25.479 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-15 13:36:25.494 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-15 13:36:25.526 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.812 seconds (process running for 2.339)
+2025-07-15 13:36:25.528 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
+2025-07-15 13:36:25.529 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-15 13:36:28.303 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-15 13:36:28.304 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-07-15 13:36:28.306 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2025-07-15 13:36:28.361 INFO  com.titos.train.member.aspect.LogAspect           :52   [32m1752557788346JWj  [0;39m ------------- 开始 -------------
+2025-07-15 13:36:28.362 INFO  com.titos.train.member.aspect.LogAspect           :53   [32m1752557788346JWj  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2025-07-15 13:36:28.364 INFO  com.titos.train.member.aspect.LogAspect           :54   [32m1752557788346JWj  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
+2025-07-15 13:36:28.364 INFO  com.titos.train.member.aspect.LogAspect           :55   [32m1752557788346JWj  [0;39m 远程地址: 127.0.0.1
+2025-07-15 13:36:28.469 INFO  com.titos.train.member.aspect.LogAspect           :59   [32m1752557788346JWj  [0;39m 请求参数: []
+2025-07-15 13:36:28.471 INFO  com.titos.train.member.aspect.LogAspect           :74   [32m1752557788346JWj  [0;39m 请求参数: []
+2025-07-15 13:36:28.471 INFO  com.titos.train.member.aspect.LogAspect           :86   [32m1752557788346JWj  [0;39m 返回结果: "Hello World!!!"
+2025-07-15 13:36:28.472 INFO  com.titos.train.member.aspect.LogAspect           :87   [32m1752557788346JWj  [0;39m ------------- 结束 耗时：126 ms -------------
