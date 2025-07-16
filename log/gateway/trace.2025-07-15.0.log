@@ -1,0 +1,147 @@
+2025-07-15 19:33:20.679 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 19:33:20.735 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 34568 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 19:33:20.736 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 19:33:21.215 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 19:33:21.741 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 19:33:21.742 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 19:33:21.743 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 19:33:21.743 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 19:33:21.743 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 19:33:22.069 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 19:33:22.163 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 1.858 seconds (process running for 2.277)
+2025-07-15 19:33:22.167 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 19:33:22.167 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 19:34:11.842 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 19:34:11.888 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 43120 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 19:34:11.889 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 19:34:12.326 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 19:34:12.727 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 19:34:12.727 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 19:34:12.727 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 19:34:12.727 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 19:34:12.728 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 19:34:13.004 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 19:34:13.125 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 1.678 seconds (process running for 2.118)
+2025-07-15 19:34:13.127 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 19:34:13.127 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 19:40:59.799 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 19:40:59.847 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 43168 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 19:40:59.848 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 19:41:00.428 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 19:41:00.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 19:41:01.210 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 19:41:01.305 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 2.107 seconds (process running for 2.721)
+2025-07-15 19:41:01.307 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 19:41:01.307 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 19:41:03.548 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:19:41:03 +0800] "GET /member/hello HTTP/1.1" 200 14 154
+2025-07-15 21:28:43.519 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 21:28:43.570 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 30920 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 21:28:43.572 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 21:28:44.246 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 21:28:44.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 21:28:44.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 21:28:44.777 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 21:28:45.305 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 21:28:45.413 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 2.432 seconds (process running for 3.024)
+2025-07-15 21:28:45.420 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 21:28:45.420 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 21:29:33.611 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 21:29:33.647 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 18356 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 21:29:33.648 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 21:29:34.255 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 21:29:34.780 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 21:29:34.780 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 21:29:34.780 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 21:29:34.781 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 21:29:35.202 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 21:29:35.320 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 2.069 seconds (process running for 2.483)
+2025-07-15 21:29:35.328 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 21:29:35.329 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 21:29:51.959 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:21:29:51 +0800] "GET /member/member/count HTTP/1.1" 500 120 567
+2025-07-15 21:31:00.515 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:21:31:00 +0800] "GET /member/member/count HTTP/1.1" 200 1 40
+2025-07-15 21:32:59.686 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:21:32:59 +0800] "GET /member/member/count HTTP/1.1" 200 1 35
+2025-07-15 21:34:42.038 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:21:34:41 +0800] "GET /member/member/count HTTP/1.1" 200 1 300
+2025-07-15 22:29:13.981 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-15 22:29:14.042 INFO  com.titos.train.gateway.config.GatewayApplication :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.15 with PID 14864 (D:\JavaProject\TicketSystem\gateway\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-15 22:29:14.044 INFO  com.titos.train.gateway.config.GatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-15 22:29:14.696 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2025-07-15 22:29:15.216 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-07-15 22:29:15.217 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-07-15 22:29:15.218 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-15 22:29:15.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-15 22:29:15.220 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-07-15 22:29:15.220 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-15 22:29:15.577 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-07-15 22:29:15.736 INFO  com.titos.train.gateway.config.GatewayApplication :57   [32m                  [0;39m Started GatewayApplication in 2.297 seconds (process running for 2.887)
+2025-07-15 22:29:15.741 INFO  com.titos.train.gateway.config.GatewayApplication :19   [32m                  [0;39m 启动成功！！
+2025-07-15 22:29:15.742 INFO  com.titos.train.gateway.config.GatewayApplication :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000null/hello
+2025-07-15 22:29:19.730 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:22:29:19 +0800] "GET /member/member/count HTTP/1.1" 200 1 407
+2025-07-15 22:45:46.466 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:22:45:46 +0800] "GET /member/member/count HTTP/1.1" 200 1 28
+2025-07-15 22:48:06.536 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:22:48:06 +0800] "POST /member/member/register HTTP/1.1" 200 13 395
+2025-07-15 22:53:18.220 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:22:53:17 +0800] "POST /member/member/register HTTP/1.1" 500 123 431
+2025-07-15 22:53:19.719 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:22:53:19 +0800] "POST /member/member/register HTTP/1.1" 500 123 32
+2025-07-15 23:08:10.776 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:23:08:10 +0800] "POST /member/member/register HTTP/1.1" 500 123 380
+2025-07-15 23:16:03.898 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:23:16:03 +0800] "GET /member/member/count HTTP/1.1" 200 43 349
+2025-07-15 23:40:39.691 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:23:40:39 +0800] "POST /member/member/register HTTP/1.1" 200 47 404
+2025-07-15 23:40:46.497 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:23:40:46 +0800] "POST /member/member/register HTTP/1.1" 200 47 25
+2025-07-15 23:43:05.506 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [15/7月/2025:23:43:05 +0800] "POST /member/member/register HTTP/1.1" 200 63 472

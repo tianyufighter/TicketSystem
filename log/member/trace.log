@@ -1,835 +1,120 @@
-2025-07-15 11:57:10.744 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 24484 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 11:57:10.749 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 11:57:12.163 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 11:57:12.173 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 11:57:12.174 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 11:57:12.176 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 11:57:12.297 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 11:57:12.297 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1468 ms
-2025-07-15 11:57:12.674 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 11:57:12.687 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-07-15 11:57:12.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2025-07-15 11:57:12.691 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2025-07-15 11:57:12.704 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2025-07-15 11:57:12.705 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2025-07-15 11:57:12.710 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-07-15 11:57:12.720 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8001 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8001 or configure this application to listen on another port.
-
-2025-07-15 11:57:35.945 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 10132 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 11:57:35.948 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 11:57:36.714 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
-2025-07-15 11:57:36.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
-2025-07-15 11:57:36.722 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 11:57:36.723 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 11:57:36.785 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 11:57:36.785 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 782 ms
-2025-07-15 11:57:37.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
-2025-07-15 11:57:37.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path '/member'
-2025-07-15 11:57:37.132 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.601 seconds (process running for 2.188)
-2025-07-15 11:57:37.134 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 11:57:37.135 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8000/member/hello
-2025-07-15 12:03:23.242 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 32500 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 12:03:23.245 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 12:03:23.968 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 12:03:23.976 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 12:03:23.979 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 12:03:23.980 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 12:03:24.047 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 12:03:24.050 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 755 ms
-2025-07-15 12:03:24.365 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 12:03:24.394 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 12:03:24.400 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.546 seconds (process running for 2.201)
-2025-07-15 12:03:24.401 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 12:03:24.401 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 12:50:28.151 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 46016 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 12:50:28.156 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 12:50:28.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 12:50:28.741 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 12:50:28.742 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 12:50:28.742 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 12:50:28.793 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 12:50:28.793 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 593 ms
-2025-07-15 12:50:29.038 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 12:50:29.056 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 12:50:29.060 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.383 seconds (process running for 1.898)
-2025-07-15 12:50:29.061 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 12:50:29.063 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 12:50:38.486 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 12:50:38.486 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 12:50:38.487 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2025-07-15 13:36:24.128 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 43344 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 13:36:24.131 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 13:36:24.598 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
-2025-07-15 13:36:24.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 13:36:24.973 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 13:36:24.975 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 13:36:24.976 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 13:36:25.047 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 13:36:25.048 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 889 ms
-2025-07-15 13:36:25.479 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 13:36:25.494 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 13:36:25.526 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.812 seconds (process running for 2.339)
-2025-07-15 13:36:25.528 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 13:36:25.529 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 13:36:28.303 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 13:36:28.304 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 13:36:28.306 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
-2025-07-15 13:36:28.361 INFO  com.titos.train.member.aspect.LogAspect           :52   [32m1752557788346JWj  [0;39m ------------- 开始 -------------
-2025-07-15 13:36:28.362 INFO  com.titos.train.member.aspect.LogAspect           :53   [32m1752557788346JWj  [0;39m 请求地址: http://localhost:8001/member/hello GET
-2025-07-15 13:36:28.364 INFO  com.titos.train.member.aspect.LogAspect           :54   [32m1752557788346JWj  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
-2025-07-15 13:36:28.364 INFO  com.titos.train.member.aspect.LogAspect           :55   [32m1752557788346JWj  [0;39m 远程地址: 127.0.0.1
-2025-07-15 13:36:28.469 INFO  com.titos.train.member.aspect.LogAspect           :59   [32m1752557788346JWj  [0;39m 请求参数: []
-2025-07-15 13:36:28.471 INFO  com.titos.train.member.aspect.LogAspect           :74   [32m1752557788346JWj  [0;39m 请求参数: []
-2025-07-15 13:36:28.471 INFO  com.titos.train.member.aspect.LogAspect           :86   [32m1752557788346JWj  [0;39m 返回结果: "Hello World!!!"
-2025-07-15 13:36:28.472 INFO  com.titos.train.member.aspect.LogAspect           :87   [32m1752557788346JWj  [0;39m ------------- 结束 耗时：126 ms -------------
-2025-07-15 13:54:32.569 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 15184 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 13:54:32.574 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 13:54:33.048 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
-2025-07-15 13:54:33.320 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 13:54:33.327 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 13:54:33.328 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 13:54:33.329 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 13:54:33.392 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 13:54:33.394 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 792 ms
-2025-07-15 13:54:33.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 13:54:33.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 13:54:33.836 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.99 seconds (process running for 2.716)
-2025-07-15 13:54:33.838 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 13:54:33.839 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 13:54:52.997 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 13:54:52.997 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 13:54:52.998 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 13:54:53.041 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752558893030a7T  [0;39m ------------- 开始 -------------
-2025-07-15 13:54:53.046 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752558893030a7T  [0;39m 请求地址: http://localhost:8001/member/hello GET
-2025-07-15 13:54:53.047 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752558893030a7T  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
-2025-07-15 13:54:53.048 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752558893030a7T  [0;39m 远程地址: 127.0.0.1
-2025-07-15 13:54:53.097 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752558893030a7T  [0;39m 请求参数: []
-2025-07-15 13:54:53.099 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752558893030a7T  [0;39m 请求参数: []
-2025-07-15 13:54:53.099 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752558893030a7T  [0;39m 返回结果: "Hello World!!!"
-2025-07-15 13:54:53.099 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752558893030a7T  [0;39m ------------- 结束 耗时：69 ms -------------
-2025-07-15 19:32:48.108 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 15648 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 19:32:48.113 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 19:32:48.677 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
-2025-07-15 19:32:48.991 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 19:32:48.997 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 19:32:48.998 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 19:32:48.998 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 19:32:49.055 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 19:32:49.055 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 898 ms
-2025-07-15 19:32:49.592 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 19:32:49.606 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 19:32:49.640 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.073 seconds (process running for 2.52)
-2025-07-15 19:32:49.642 INFO  com.titos.train.member.config.MemberApplication   :19   [32m                  [0;39m 启动成功！！
-2025-07-15 19:32:49.642 INFO  com.titos.train.member.config.MemberApplication   :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 19:34:40.060 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 19:34:40.061 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 19:34:40.062 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 19:34:40.090 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752579280087PJ2  [0;39m ------------- 开始 -------------
-2025-07-15 19:34:40.091 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752579280087PJ2  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
-2025-07-15 19:34:40.091 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752579280087PJ2  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
-2025-07-15 19:34:40.091 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752579280087PJ2  [0;39m 远程地址: 127.0.0.1
-2025-07-15 19:34:40.123 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752579280087PJ2  [0;39m 请求参数: []
-2025-07-15 19:34:40.123 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752579280087PJ2  [0;39m 请求参数: []
-2025-07-15 19:34:40.123 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752579280087PJ2  [0;39m 返回结果: "Hello World!!!"
-2025-07-15 19:34:40.125 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752579280087PJ2  [0;39m ------------- 结束 耗时：38 ms -------------
-2025-07-15 19:35:16.000 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752579316000w0c  [0;39m ------------- 开始 -------------
-2025-07-15 19:35:16.001 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752579316000w0c  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
-2025-07-15 19:35:16.001 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752579316000w0c  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
-2025-07-15 19:35:16.001 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752579316000w0c  [0;39m 远程地址: 127.0.0.1
-2025-07-15 19:35:16.002 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752579316000w0c  [0;39m 请求参数: []
-2025-07-15 19:35:16.002 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752579316000w0c  [0;39m 请求参数: []
-2025-07-15 19:35:16.002 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752579316000w0c  [0;39m 返回结果: "Hello World!!!"
-2025-07-15 19:35:16.002 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752579316000w0c  [0;39m ------------- 结束 耗时：2 ms -------------
-2025-07-15 19:41:03.530 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752579663530UB6  [0;39m ------------- 开始 -------------
-2025-07-15 19:41:03.530 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752579663530UB6  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752579663530UB6  [0;39m 类名方法: com.titos.train.member.controller.TestController.index
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752579663530UB6  [0;39m 远程地址: 127.0.0.1
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752579663530UB6  [0;39m 请求参数: []
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752579663530UB6  [0;39m 请求参数: []
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752579663530UB6  [0;39m 返回结果: "Hello World!!!"
-2025-07-15 19:41:03.531 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752579663530UB6  [0;39m ------------- 结束 耗时：1 ms -------------
-2025-07-15 21:28:41.452 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 38064 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 21:28:41.455 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 21:28:42.593 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=7e2bcf27-eea1-3c42-94f4-89e3cc650fbf
-2025-07-15 21:28:42.692 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.mybatis.spring.mapper.MapperFactoryBean
-2025-07-15 21:28:43.245 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 21:28:43.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 21:28:43.257 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 21:28:43.257 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 21:28:43.363 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 21:28:43.365 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1858 ms
-2025-07-15 21:28:43.438 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Injection of resource dependencies failed
-2025-07-15 21:28:43.442 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2025-07-15 21:28:43.492 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-07-15 21:28:43.519 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Injection of resource dependencies failed
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at com.titos.train.member.config.MemberApplication.main(MemberApplication.java:20)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberService': Injection of resource dependencies failed
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:236)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
-	... 15 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [D:\JavaProject\TicketSystem\member\target\classes\com\titos\train\member\mapper\MemberMapper.class]: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:236)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
-	... 29 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
-	at org.springframework.util.Assert.notNull(Assert.java:204)
-	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:122)
-	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:73)
-	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
-	... 42 common frames omitted
-2025-07-15 21:29:36.467 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 33428 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 21:29:36.469 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 21:29:36.956 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 21:29:37.247 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 21:29:37.253 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 21:29:37.254 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 21:29:37.254 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 21:29:37.333 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 21:29:37.334 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 831 ms
-2025-07-15 21:29:37.959 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 21:29:37.979 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 21:29:38.013 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.991 seconds (process running for 2.443)
-2025-07-15 21:29:38.015 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 21:29:38.015 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 21:29:51.539 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 21:29:51.540 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 21:29:51.541 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 21:29:51.561 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752586191557t9g  [0;39m ------------- 开始 -------------
-2025-07-15 21:29:51.562 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752586191557t9g  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 21:29:51.562 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752586191557t9g  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 21:29:51.562 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752586191557t9g  [0;39m 远程地址: 127.0.0.1
-2025-07-15 21:29:51.594 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752586191557t9g  [0;39m 请求参数: []
-2025-07-15 21:29:51.595 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752586191557t9g  [0;39m 请求参数: []
-2025-07-15 21:29:51.623 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752586191557t9g  [0;39m HikariPool-1 - Starting...
-2025-07-15 21:29:51.761 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752586191557t9g  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f52a7fd
-2025-07-15 21:29:51.766 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752586191557t9g  [0;39m HikariPool-1 - Start completed.
-2025-07-15 21:29:51.884 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1752586191557t9g  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'ticket_system_member.member' doesn't exist
-### The error may exist in file [D:\JavaProject\TicketSystem\member\target\classes\mapper\MemberMapper.xml]
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: select count(1) from member
-### Cause: java.sql.SQLSyntaxErrorException: Table 'ticket_system_member.member' doesn't exist
-; bad SQL grammar []] with root cause
-java.sql.SQLSyntaxErrorException: Table 'ticket_system_member.member' doesn't exist
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
-	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
-	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
-	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
-	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
-	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
-	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
-	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
-	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
-	at jdk.proxy2/jdk.proxy2.$Proxy73.selectOne(Unknown Source)
-	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
-	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at jdk.proxy2/jdk.proxy2.$Proxy74.count(Unknown Source)
-	at com.titos.train.member.service.MemberService.count(MemberService.java:14)
-	at com.titos.train.member.controller.MemberController.count(MemberController.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.titos.train.common.aspect.LogAspect.doAround(LogAspect.java:80)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.titos.train.member.controller.MemberController$$SpringCGLIB$$0.count(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-07-15 21:31:00.483 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752586260483NOM  [0;39m ------------- 开始 -------------
-2025-07-15 21:31:00.484 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752586260483NOM  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 21:31:00.485 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752586260483NOM  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 21:31:00.485 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752586260483NOM  [0;39m 远程地址: 127.0.0.1
-2025-07-15 21:31:00.485 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752586260483NOM  [0;39m 请求参数: []
-2025-07-15 21:31:00.485 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752586260483NOM  [0;39m 请求参数: []
-2025-07-15 21:31:00.505 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752586260483NOM  [0;39m 返回结果: 0
-2025-07-15 21:31:00.505 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752586260483NOM  [0;39m ------------- 结束 耗时：22 ms -------------
-2025-07-15 21:32:59.667 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752586379667Py4  [0;39m ------------- 开始 -------------
-2025-07-15 21:32:59.668 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752586379667Py4  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 21:32:59.668 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752586379667Py4  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 21:32:59.668 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752586379667Py4  [0;39m 远程地址: 127.0.0.1
-2025-07-15 21:32:59.669 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752586379667Py4  [0;39m 请求参数: []
-2025-07-15 21:32:59.669 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752586379667Py4  [0;39m 请求参数: []
-2025-07-15 21:32:59.670 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752586379667Py4  [0;39m 返回结果: 1
-2025-07-15 21:32:59.672 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752586379667Py4  [0;39m ------------- 结束 耗时：5 ms -------------
-2025-07-15 21:34:29.717 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 21:34:29.743 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-07-15 21:34:31.953 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 34824 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 21:34:31.956 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 21:34:32.527 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 21:34:32.850 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 21:34:32.857 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 21:34:32.858 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 21:34:32.859 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 21:34:32.921 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 21:34:32.921 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 925 ms
-2025-07-15 21:34:33.543 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 21:34:33.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 21:34:33.614 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.188 seconds (process running for 2.807)
-2025-07-15 21:34:33.615 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 21:34:33.615 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 21:34:41.795 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 21:34:41.797 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 21:34:41.801 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
-2025-07-15 21:34:41.834 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752586481827M6h  [0;39m ------------- 开始 -------------
-2025-07-15 21:34:41.834 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752586481827M6h  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 21:34:41.834 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752586481827M6h  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 21:34:41.835 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752586481827M6h  [0;39m 远程地址: 127.0.0.1
-2025-07-15 21:34:41.863 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752586481827M6h  [0;39m 请求参数: []
-2025-07-15 21:34:41.864 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752586481827M6h  [0;39m 请求参数: []
-2025-07-15 21:34:41.874 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752586481827M6h  [0;39m HikariPool-1 - Starting...
-2025-07-15 21:34:41.974 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752586481827M6h  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50f22b0
-2025-07-15 21:34:41.975 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752586481827M6h  [0;39m HikariPool-1 - Start completed.
-2025-07-15 21:34:41.982 DEBUG com.titos.train.member.mapper.MemberMapper.count  :137  [32m1752586481827M6h  [0;39m ==>  Preparing: select count(1) from member
-2025-07-15 21:34:41.998 DEBUG com.titos.train.member.mapper.MemberMapper.count  :137  [32m1752586481827M6h  [0;39m ==> Parameters: 
-2025-07-15 21:34:42.012 TRACE com.titos.train.member.mapper.MemberMapper.count  :143  [32m1752586481827M6h  [0;39m <==    Columns: count(1)
-2025-07-15 21:34:42.012 TRACE com.titos.train.member.mapper.MemberMapper.count  :143  [32m1752586481827M6h  [0;39m <==        Row: 1
-2025-07-15 21:34:42.017 DEBUG com.titos.train.member.mapper.MemberMapper.count  :137  [32m1752586481827M6h  [0;39m <==      Total: 1
-2025-07-15 21:34:42.021 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752586481827M6h  [0;39m 返回结果: 1
-2025-07-15 21:34:42.021 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752586481827M6h  [0;39m ------------- 结束 耗时：194 ms -------------
-2025-07-15 22:29:07.202 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 22:29:07.209 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-07-15 22:29:11.992 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 32336 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 22:29:11.997 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 22:29:13.149 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 22:29:13.797 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 22:29:13.808 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:29:13.809 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 22:29:13.810 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 22:29:13.908 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 22:29:13.909 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1842 ms
-2025-07-15 22:29:14.843 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:29:14.862 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 22:29:14.895 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 3.561 seconds (process running for 4.117)
-2025-07-15 22:29:14.897 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 22:29:14.898 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 22:29:19.458 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 22:29:19.459 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 22:29:19.462 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
-2025-07-15 22:29:19.483 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752589759478pS7  [0;39m ------------- 开始 -------------
-2025-07-15 22:29:19.483 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752589759478pS7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 22:29:19.483 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752589759478pS7  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 22:29:19.484 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752589759478pS7  [0;39m 远程地址: 127.0.0.1
-2025-07-15 22:29:19.511 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752589759478pS7  [0;39m 请求参数: []
-2025-07-15 22:29:19.512 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752589759478pS7  [0;39m 请求参数: []
-2025-07-15 22:29:19.531 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752589759478pS7  [0;39m HikariPool-1 - Starting...
-2025-07-15 22:29:19.633 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752589759478pS7  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6aa9dd3f
-2025-07-15 22:29:19.636 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752589759478pS7  [0;39m HikariPool-1 - Start completed.
-2025-07-15 22:29:19.643 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752589759478pS7  [0;39m ==>  Preparing: select count(*) from member
-2025-07-15 22:29:19.665 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752589759478pS7  [0;39m ==> Parameters: 
-2025-07-15 22:29:19.682 TRACE c.t.t.member.mapper.MemberMapper.countByExample   :143  [32m1752589759478pS7  [0;39m <==    Columns: count(*)
-2025-07-15 22:29:19.682 TRACE c.t.t.member.mapper.MemberMapper.countByExample   :143  [32m1752589759478pS7  [0;39m <==        Row: 1
-2025-07-15 22:29:19.687 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752589759478pS7  [0;39m <==      Total: 1
-2025-07-15 22:29:19.692 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752589759478pS7  [0;39m 返回结果: 1
-2025-07-15 22:29:19.692 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752589759478pS7  [0;39m ------------- 结束 耗时：214 ms -------------
-2025-07-15 22:45:46.456 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752590746456ytK  [0;39m ------------- 开始 -------------
-2025-07-15 22:45:46.457 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752590746456ytK  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2025-07-15 22:45:46.457 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752590746456ytK  [0;39m 类名方法: com.titos.train.member.controller.MemberController.count
-2025-07-15 22:45:46.457 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752590746456ytK  [0;39m 远程地址: 127.0.0.1
-2025-07-15 22:45:46.457 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752590746456ytK  [0;39m 请求参数: []
-2025-07-15 22:45:46.458 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752590746456ytK  [0;39m 请求参数: []
-2025-07-15 22:45:46.459 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752590746456ytK  [0;39m ==>  Preparing: select count(*) from member
-2025-07-15 22:45:46.460 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752590746456ytK  [0;39m ==> Parameters: 
-2025-07-15 22:45:46.460 TRACE c.t.t.member.mapper.MemberMapper.countByExample   :143  [32m1752590746456ytK  [0;39m <==    Columns: count(*)
-2025-07-15 22:45:46.460 TRACE c.t.t.member.mapper.MemberMapper.countByExample   :143  [32m1752590746456ytK  [0;39m <==        Row: 1
-2025-07-15 22:45:46.460 DEBUG c.t.t.member.mapper.MemberMapper.countByExample   :137  [32m1752590746456ytK  [0;39m <==      Total: 1
-2025-07-15 22:45:46.462 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752590746456ytK  [0;39m 返回结果: 1
-2025-07-15 22:45:46.462 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752590746456ytK  [0;39m ------------- 结束 耗时：6 ms -------------
-2025-07-15 22:47:09.645 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 22:47:09.655 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-07-15 22:47:12.834 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 10912 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 22:47:12.840 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 22:47:13.442 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 22:47:13.817 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 22:47:13.824 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:47:13.825 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 22:47:13.825 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 22:47:13.887 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 22:47:13.887 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1010 ms
-2025-07-15 22:47:14.521 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:47:14.534 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 22:47:14.566 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.196 seconds (process running for 2.738)
-2025-07-15 22:47:14.569 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 22:47:14.569 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 22:48:06.212 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 22:48:06.213 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 22:48:06.215 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 22:48:06.249 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752590886243gmP  [0;39m ------------- 开始 -------------
-2025-07-15 22:48:06.250 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752590886243gmP  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2025-07-15 22:48:06.251 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752590886243gmP  [0;39m 类名方法: com.titos.train.member.controller.MemberController.register
-2025-07-15 22:48:06.251 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752590886243gmP  [0;39m 远程地址: 127.0.0.1
-2025-07-15 22:48:06.299 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752590886243gmP  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:48:06.303 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752590886243gmP  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:48:06.323 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752590886243gmP  [0;39m HikariPool-1 - Starting...
-2025-07-15 22:48:06.439 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752590886243gmP  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5101e92
-2025-07-15 22:48:06.443 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752590886243gmP  [0;39m HikariPool-1 - Start completed.
-2025-07-15 22:48:06.450 DEBUG com.titos.train.member.mapper.MemberMapper.insert :137  [32m1752590886243gmP  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
-2025-07-15 22:48:06.467 DEBUG com.titos.train.member.mapper.MemberMapper.insert :137  [32m1752590886243gmP  [0;39m ==> Parameters: 1752590886305(Long), 18482079914(String)
-2025-07-15 22:48:06.514 DEBUG com.titos.train.member.mapper.MemberMapper.insert :137  [32m1752590886243gmP  [0;39m <==    Updates: 1
-2025-07-15 22:48:06.517 INFO  com.titos.train.common.aspect.LogAspect           :86   [32m1752590886243gmP  [0;39m 返回结果: 1752590886305
-2025-07-15 22:48:06.517 INFO  com.titos.train.common.aspect.LogAspect           :87   [32m1752590886243gmP  [0;39m ------------- 结束 耗时：274 ms -------------
-2025-07-15 22:53:12.420 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 22:53:12.428 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-07-15 22:53:15.695 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 26720 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 22:53:15.697 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 22:53:16.282 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 22:53:16.605 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 22:53:16.612 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:53:16.612 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 22:53:16.612 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 22:53:16.666 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 22:53:16.667 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 927 ms
-2025-07-15 22:53:17.334 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 22:53:17.358 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 22:53:17.399 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.205 seconds (process running for 2.767)
-2025-07-15 22:53:17.401 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 22:53:17.401 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 22:53:17.844 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 22:53:17.845 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 22:53:17.846 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 22:53:17.877 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752591197873s2S  [0;39m ------------- 开始 -------------
-2025-07-15 22:53:17.878 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752591197873s2S  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2025-07-15 22:53:17.878 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752591197873s2S  [0;39m 类名方法: com.titos.train.member.controller.MemberController.register
-2025-07-15 22:53:17.878 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752591197873s2S  [0;39m 远程地址: 127.0.0.1
-2025-07-15 22:53:17.905 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752591197873s2S  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:53:17.906 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752591197873s2S  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:53:17.980 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752591197873s2S  [0;39m HikariPool-1 - Starting...
-2025-07-15 22:53:18.066 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752591197873s2S  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bc2feba
-2025-07-15 22:53:18.069 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752591197873s2S  [0;39m HikariPool-1 - Start completed.
-2025-07-15 22:53:18.081 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591197873s2S  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-07-15 22:53:18.118 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591197873s2S  [0;39m ==> Parameters: 18482079914(String)
-2025-07-15 22:53:18.140 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752591197873s2S  [0;39m <==    Columns: id, mobile
-2025-07-15 22:53:18.142 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752591197873s2S  [0;39m <==        Row: 1752590886305, 18482079914
-2025-07-15 22:53:18.144 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591197873s2S  [0;39m <==      Total: 1
-2025-07-15 22:53:18.170 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1752591197873s2S  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: 手机号已注册] with root cause
-java.lang.RuntimeException: 手机号已注册
-	at com.titos.train.member.service.MemberService.register(MemberService.java:27)
-	at com.titos.train.member.controller.MemberController.register(MemberController.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.titos.train.common.aspect.LogAspect.doAround(LogAspect.java:80)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.titos.train.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-07-15 22:53:19.694 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752591199694vM7  [0;39m ------------- 开始 -------------
-2025-07-15 22:53:19.696 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752591199694vM7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2025-07-15 22:53:19.696 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752591199694vM7  [0;39m 类名方法: com.titos.train.member.controller.MemberController.register
-2025-07-15 22:53:19.696 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752591199694vM7  [0;39m 远程地址: 127.0.0.1
-2025-07-15 22:53:19.697 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752591199694vM7  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:53:19.697 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752591199694vM7  [0;39m 请求参数: ["18482079914"]
-2025-07-15 22:53:19.699 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591199694vM7  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-07-15 22:53:19.699 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591199694vM7  [0;39m ==> Parameters: 18482079914(String)
-2025-07-15 22:53:19.701 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752591199694vM7  [0;39m <==    Columns: id, mobile
-2025-07-15 22:53:19.703 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752591199694vM7  [0;39m <==        Row: 1752590886305, 18482079914
-2025-07-15 22:53:19.703 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752591199694vM7  [0;39m <==      Total: 1
-2025-07-15 22:53:19.704 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1752591199694vM7  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: 手机号已注册] with root cause
-java.lang.RuntimeException: 手机号已注册
-	at com.titos.train.member.service.MemberService.register(MemberService.java:27)
-	at com.titos.train.member.controller.MemberController.register(MemberController.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.titos.train.common.aspect.LogAspect.doAround(LogAspect.java:80)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.titos.train.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-07-15 23:08:01.680 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 23:08:01.689 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-07-15 23:08:07.176 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 44232 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
-2025-07-15 23:08:07.179 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-07-15 23:08:07.744 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9a595ee0-6b2e-316e-8cd1-cc0ce89d0476
-2025-07-15 23:08:08.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2025-07-15 23:08:08.066 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2025-07-15 23:08:08.067 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-07-15 23:08:08.067 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-07-15 23:08:08.134 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-07-15 23:08:08.134 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 921 ms
-2025-07-15 23:08:08.769 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2025-07-15 23:08:08.783 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2025-07-15 23:08:08.817 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.121 seconds (process running for 2.604)
-2025-07-15 23:08:08.819 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
-2025-07-15 23:08:08.819 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2025-07-15 23:08:10.458 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-15 23:08:10.458 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-07-15 23:08:10.459 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-07-15 23:08:10.492 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752592090488Kjx  [0;39m ------------- 开始 -------------
-2025-07-15 23:08:10.492 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752592090488Kjx  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2025-07-15 23:08:10.493 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752592090488Kjx  [0;39m 类名方法: com.titos.train.member.controller.MemberController.register
-2025-07-15 23:08:10.493 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752592090488Kjx  [0;39m 远程地址: 127.0.0.1
-2025-07-15 23:08:10.556 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752592090488Kjx  [0;39m 请求参数: [{"mobile":"18482079914"}]
-2025-07-15 23:08:10.557 INFO  com.titos.train.common.aspect.LogAspect           :74   [32m1752592090488Kjx  [0;39m 请求参数: [{}]
-2025-07-15 23:08:10.587 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752592090488Kjx  [0;39m HikariPool-1 - Starting...
-2025-07-15 23:08:10.683 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752592090488Kjx  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44cefbfa
-2025-07-15 23:08:10.685 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752592090488Kjx  [0;39m HikariPool-1 - Start completed.
-2025-07-15 23:08:10.693 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752592090488Kjx  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-07-15 23:08:10.712 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752592090488Kjx  [0;39m ==> Parameters: 18482079914(String)
-2025-07-15 23:08:10.726 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752592090488Kjx  [0;39m <==    Columns: id, mobile
-2025-07-15 23:08:10.726 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752592090488Kjx  [0;39m <==        Row: 1752590886305, 18482079914
-2025-07-15 23:08:10.727 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752592090488Kjx  [0;39m <==      Total: 1
-2025-07-15 23:08:10.738 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1752592090488Kjx  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: 手机号已注册] with root cause
-java.lang.RuntimeException: 手机号已注册
-	at com.titos.train.member.service.MemberService.register(MemberService.java:29)
-	at com.titos.train.member.controller.MemberController.register(MemberController.java:25)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.titos.train.common.aspect.LogAspect.doAround(LogAspect.java:80)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.titos.train.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-07-15 23:15:36.066 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-07-15 23:15:36.078 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-07-16 08:57:13.867 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-07-16 08:57:13.878 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-07-16 13:14:16.882 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-16 13:14:16.948 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 16632 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-16 13:14:16.951 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-16 13:14:17.590 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1dc34d0e-91b1-3da8-b39e-35c5eaed8d6c
+2025-07-16 13:14:18.006 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-16 13:14:18.041 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:14:18.042 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-16 13:14:18.042 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-16 13:14:18.154 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-16 13:14:18.155 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1162 ms
+2025-07-16 13:14:18.919 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:14:18.931 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-16 13:14:18.965 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.573 seconds (process running for 3.064)
+2025-07-16 13:14:18.967 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2025-07-16 13:14:18.968 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-16 13:14:29.100 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 13:14:29.101 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-07-16 13:14:29.102 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-07-16 13:15:27.923 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752642927917iD4  [0;39m ------------- 开始 -------------
+2025-07-16 13:15:27.924 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752642927917iD4  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2025-07-16 13:15:27.924 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752642927917iD4  [0;39m 类名方法: com.titos.train.member.controller.MemberController.sendCode
+2025-07-16 13:15:27.925 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752642927917iD4  [0;39m 远程地址: 127.0.0.1
+2025-07-16 13:15:28.005 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752642927917iD4  [0;39m 请求参数: [{"mobile":"18482079914"}]
+2025-07-16 13:15:28.005 INFO  com.titos.train.common.aspect.LogAspect           :75   [32m1752642927917iD4  [0;39m 请求参数: [{"mobile":"18482079914"}]
+2025-07-16 13:15:28.052 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752642927917iD4  [0;39m HikariPool-1 - Starting...
+2025-07-16 13:15:28.188 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752642927917iD4  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a63a406
+2025-07-16 13:15:28.190 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752642927917iD4  [0;39m HikariPool-1 - Start completed.
+2025-07-16 13:15:28.195 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752642927917iD4  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-07-16 13:15:28.212 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752642927917iD4  [0;39m ==> Parameters: 18482079914(String)
+2025-07-16 13:15:28.227 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752642927917iD4  [0;39m <==    Columns: id, mobile
+2025-07-16 13:15:28.228 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752642927917iD4  [0;39m <==        Row: 1752590886305, 18482079914
+2025-07-16 13:15:28.228 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752642927917iD4  [0;39m <==      Total: 1
+2025-07-16 13:15:28.236 INFO  com.titos.train.common.aspect.LogAspect           :88   [32m1752642927917iD4  [0;39m 返回结果: {"success":true}
+2025-07-16 13:15:28.237 INFO  com.titos.train.common.aspect.LogAspect           :89   [32m1752642927917iD4  [0;39m ------------- 结束 耗时：320 ms -------------
+2025-07-16 13:48:24.740 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-07-16 13:48:24.745 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-07-16 13:48:29.652 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-16 13:48:29.703 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 43888 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-16 13:48:29.705 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-16 13:48:30.273 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1dc34d0e-91b1-3da8-b39e-35c5eaed8d6c
+2025-07-16 13:48:30.671 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-16 13:48:30.687 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:48:30.693 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-16 13:48:30.694 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-16 13:48:30.825 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-16 13:48:30.826 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1084 ms
+2025-07-16 13:48:31.563 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:48:31.593 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-16 13:48:31.628 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.523 seconds (process running for 3.011)
+2025-07-16 13:48:31.630 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2025-07-16 13:48:31.632 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-16 13:49:04.101 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 13:49:04.102 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-07-16 13:49:04.104 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-07-16 13:49:04.209 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752644944204iZU  [0;39m ------------- 开始 -------------
+2025-07-16 13:49:04.210 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752644944204iZU  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2025-07-16 13:49:04.210 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752644944204iZU  [0;39m 类名方法: com.titos.train.member.controller.MemberController.sendCode
+2025-07-16 13:49:04.210 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752644944204iZU  [0;39m 远程地址: 127.0.0.1
+2025-07-16 13:49:04.258 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752644944204iZU  [0;39m 请求参数: [{"code":"1234","mobile":"18482079914"}]
+2025-07-16 13:49:04.259 INFO  com.titos.train.common.aspect.LogAspect           :75   [32m1752644944204iZU  [0;39m 请求参数: [{"code":"1234","mobile":"18482079914"}]
+2025-07-16 13:49:04.290 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752644944204iZU  [0;39m HikariPool-1 - Starting...
+2025-07-16 13:49:04.383 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752644944204iZU  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef1bc1b
+2025-07-16 13:49:04.384 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752644944204iZU  [0;39m HikariPool-1 - Start completed.
+2025-07-16 13:49:04.393 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644944204iZU  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-07-16 13:49:04.410 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644944204iZU  [0;39m ==> Parameters: 18482079914(String)
+2025-07-16 13:49:04.426 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644944204iZU  [0;39m <==    Columns: id, mobile
+2025-07-16 13:49:04.427 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644944204iZU  [0;39m <==        Row: 1752590886305, 18482079914
+2025-07-16 13:49:04.427 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644944204iZU  [0;39m <==      Total: 1
+2025-07-16 13:49:04.516 INFO  com.titos.train.common.aspect.LogAspect           :88   [32m1752644944204iZU  [0;39m 返回结果: {"content":{"id":1752590886305,"mobile":"18482079914"},"success":true}
+2025-07-16 13:49:04.518 INFO  com.titos.train.common.aspect.LogAspect           :89   [32m1752644944204iZU  [0;39m ------------- 结束 耗时：314 ms -------------
+2025-07-16 13:49:26.581 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-07-16 13:49:26.589 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-07-16 13:49:30.415 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-07-16 13:49:30.470 INFO  com.titos.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.15 with PID 33432 (D:\JavaProject\TicketSystem\member\target\classes started by Titos in D:\JavaProject\TicketSystem)
+2025-07-16 13:49:30.471 INFO  com.titos.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-07-16 13:49:31.279 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1dc34d0e-91b1-3da8-b39e-35c5eaed8d6c
+2025-07-16 13:49:31.664 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-07-16 13:49:31.671 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:49:31.672 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-07-16 13:49:31.674 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-07-16 13:49:31.755 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-07-16 13:49:31.756 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1243 ms
+2025-07-16 13:49:32.470 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-07-16 13:49:32.485 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-07-16 13:49:32.528 INFO  com.titos.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.638 seconds (process running for 3.165)
+2025-07-16 13:49:32.531 INFO  com.titos.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2025-07-16 13:49:32.531 INFO  com.titos.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-07-16 13:49:35.458 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 13:49:35.459 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-07-16 13:49:35.462 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2025-07-16 13:49:35.522 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752644975518wCJ  [0;39m ------------- 开始 -------------
+2025-07-16 13:49:35.523 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752644975518wCJ  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2025-07-16 13:49:35.523 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752644975518wCJ  [0;39m 类名方法: com.titos.train.member.controller.MemberController.sendCode
+2025-07-16 13:49:35.523 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752644975518wCJ  [0;39m 远程地址: 127.0.0.1
+2025-07-16 13:49:35.593 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752644975518wCJ  [0;39m 请求参数: [{"code":"1234","mobile":"18482079914"}]
+2025-07-16 13:49:35.594 INFO  com.titos.train.common.aspect.LogAspect           :75   [32m1752644975518wCJ  [0;39m 请求参数: [{"code":"1234","mobile":"18482079914"}]
+2025-07-16 13:49:35.650 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1752644975518wCJ  [0;39m HikariPool-1 - Starting...
+2025-07-16 13:49:35.751 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1752644975518wCJ  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8749317
+2025-07-16 13:49:35.753 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1752644975518wCJ  [0;39m HikariPool-1 - Start completed.
+2025-07-16 13:49:35.760 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644975518wCJ  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-07-16 13:49:35.777 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644975518wCJ  [0;39m ==> Parameters: 18482079914(String)
+2025-07-16 13:49:35.788 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644975518wCJ  [0;39m <==    Columns: id, mobile
+2025-07-16 13:49:35.789 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644975518wCJ  [0;39m <==        Row: 1752590886305, 18482079914
+2025-07-16 13:49:35.789 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644975518wCJ  [0;39m <==      Total: 1
+2025-07-16 13:49:35.797 ERROR c.t.t.common.controller.ControllerExceptionHandler:40   [32m1752644975518wCJ  [0;39m 业务异常：短信验证码错误
+2025-07-16 13:49:43.499 INFO  com.titos.train.common.aspect.LogAspect           :52   [32m1752644983499BH4  [0;39m ------------- 开始 -------------
+2025-07-16 13:49:43.500 INFO  com.titos.train.common.aspect.LogAspect           :53   [32m1752644983499BH4  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2025-07-16 13:49:43.500 INFO  com.titos.train.common.aspect.LogAspect           :54   [32m1752644983499BH4  [0;39m 类名方法: com.titos.train.member.controller.MemberController.sendCode
+2025-07-16 13:49:43.501 INFO  com.titos.train.common.aspect.LogAspect           :55   [32m1752644983499BH4  [0;39m 远程地址: 127.0.0.1
+2025-07-16 13:49:43.501 INFO  com.titos.train.common.aspect.LogAspect           :59   [32m1752644983499BH4  [0;39m 请求参数: [{"code":"8888","mobile":"18482079914"}]
+2025-07-16 13:49:43.501 INFO  com.titos.train.common.aspect.LogAspect           :75   [32m1752644983499BH4  [0;39m 请求参数: [{"code":"8888","mobile":"18482079914"}]
+2025-07-16 13:49:43.502 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644983499BH4  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-07-16 13:49:43.503 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644983499BH4  [0;39m ==> Parameters: 18482079914(String)
+2025-07-16 13:49:43.505 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644983499BH4  [0;39m <==    Columns: id, mobile
+2025-07-16 13:49:43.505 TRACE c.t.t.member.mapper.MemberMapper.selectByExample  :143  [32m1752644983499BH4  [0;39m <==        Row: 1752590886305, 18482079914
+2025-07-16 13:49:43.506 DEBUG c.t.t.member.mapper.MemberMapper.selectByExample  :137  [32m1752644983499BH4  [0;39m <==      Total: 1
+2025-07-16 13:49:43.545 INFO  com.titos.train.common.aspect.LogAspect           :88   [32m1752644983499BH4  [0;39m 返回结果: {"content":{"id":1752590886305,"mobile":"18482079914"},"success":true}
+2025-07-16 13:49:43.547 INFO  com.titos.train.common.aspect.LogAspect           :89   [32m1752644983499BH4  [0;39m ------------- 结束 耗时：48 ms -------------
